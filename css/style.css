@@ -119,3 +119,42 @@ img{
 }
 /* banner part end */
 
+
+/* food part start */
+#food{
+    padding-top: 20px;
+    
+}
+.food_text{
+    padding-top: 60px;
+    width: 50%;
+}
+.food_img{
+    padding-top: 60px;
+    width: 50%;
+}
+.food_text h2{
+    font-size: 36px;
+    color: #cc9900;
+    font-weight: 600;
+    font-family: 'Yeseva One', cursive;
+}
+.food_text p{
+    padding-top: 30px;
+    width: 400px;
+    text-align: center;
+    margin-left: 80px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #4c4c4c;
+
+}
+.cook_img{
+    padding-top: 30px;
+}
+.food_img img{
+    width: 100%;
+    max-width: 100%;
+}
+/* food part end */
+
