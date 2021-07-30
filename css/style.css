@@ -29,7 +29,9 @@ img{
 .flex_wrap{
     flex-wrap: wrap;
 }
-
+.align_item{
+    align-items: flex-end;
+}
 .justify_center{
     justify-content: center;
 }
@@ -57,6 +59,7 @@ img{
 /* common css end */
 
 /* menu part start */
+
 
 #menu{
     padding: 40px 0;
@@ -158,3 +161,83 @@ img{
 }
 /* food part end */
 
+
+/* Ingridients part start */
+
+#ingridient{
+    padding: 100px 0;
+     
+}
+
+.ingri_text{
+    width: 450px;
+    margin-left: 550px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 2px;
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 25px 50px 15px; 
+    min-height: 500px;
+    
+}
+
+.ingri_text h4{
+    color: #f1f1f1;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    
+    
+}
+.ingri_text p{
+    font-size: 16px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+    
+}
+.sym_img img{
+    margin-left: 60px;
+}
+.ingr_img img{
+    margin-right: 15px;
+
+    
+}
+
+/* Ingridients part end */
+
+/* Menu part start */
+
+#menu_part{
+    padding-top: 60px 
+}
+
+.menu_col{
+    width: 50%;
+    min-height: 200px;
+
+}
+.menu_col h4{
+    font-size: 36px;
+    color: #cc9900;
+    text-align: center;
+}
+.menu_col h6{
+    font-size: 25px;
+    color: #cc9900;
+}
+.span{
+    padding-right: 30px;
+}
+.menu_col img{
+    margin-left: 160px;
+}
+/* Menu part end */
