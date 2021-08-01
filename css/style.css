@@ -217,27 +217,300 @@ img{
 /* Menu part start */
 
 #menu_part{
-    padding-top: 60px 
+    padding-top: 60px;
+    
 }
 
 .menu_col{
     width: 50%;
-    min-height: 200px;
+    height: 800px;
+    margin-left: 40px;
+
+}
+.menu_row{
+    margin-top: 30px;
+
+}
+.menu_row2{
+    margin-top: 30px;
 
 }
 .menu_col h4{
     font-size: 36px;
     color: #cc9900;
     text-align: center;
+    margin-right: 160px;
 }
 .menu_col h6{
-    font-size: 25px;
+    font-size: 20px;
     color: #cc9900;
 }
-.span{
-    padding-right: 30px;
-}
 .menu_col img{
-    margin-left: 160px;
+    margin-left: 70px;
+    padding-bottom: 30px;
 }
+
+.head{
+    border-bottom: 1px solid #cc9900;
+    padding-bottom: 10px;
+    width: 400px;
+}
+
+.head h5{
+    margin-right: 280px;
+    color: #cc9900; 
+    font-size: 21px; 
+
+}
+
+.head h6{
+    font-size: 18px;
+}
+.head2{
+    border-bottom: 1px solid #cc9900;
+    padding-bottom: 10px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.head2 h5{
+    margin-right: 210px;
+    color: #cc9900; 
+    font-size: 21px; 
+
+}
+
+.head2 h6{
+    font-size: 18px;
+}
+
+
+.menu_col p{
+    padding-top: 13px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.menu_col2{
+    width: 50%;
+    min-height: 300px;
+    
+}
+.menu_col2 h4{
+    font-size: 36px;
+    color: #cc9900;
+    text-align: center;
+    margin-right: 160px;
+}
+.menu_col2 h6{
+    font-size: 18px;
+    color: #cc9900;
+    margin-left: 20px;
+    
+}
+.menu_col2 img{
+    margin-left: 70px;
+    padding-bottom: 30px;
+}
+.menu_col2 h5{
+    margin-right: 250px;
+    color: #cc9900; 
+    font-size: 15px; 
+
+}
+
+
+
 /* Menu part end */
+
+
+/* Review part start */
+
+#review{
+    padding: 150px 0;
+}
+.review_text{
+    width: 450px;
+    margin-left: 380px;
+    border-radius: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    box-shadow: 2px;
+    background-color: rgba(0, 0, 0, 0.473);
+    padding: 25px 50px 15px;
+    min-height: 370px;
+}
+
+.review_text h4{
+    color: #f1f1f1;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    
+    
+}
+.review_text p{
+    font-size: 16px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+    
+}
+.sym_img img{
+    margin-left: 60px;
+}
+/* Review part end */
+
+
+/* Reservation part start */
+
+#reservation{
+    padding: 100px 0;
+}
+
+.res_col{
+    width: 50%;
+    margin-left: 200px;
+
+}
+.res_col img{
+    width: 45%;
+    min-height: 350px;
+    padding-left: 20px;
+}
+.res_col2{
+    width: 50%;
+    min-height: 400px;
+    margin-left: 40px;
+}
+
+.res_col2 h4{
+    font-size: 30px;
+    color: #cc9900;
+    padding-left: 50px;
+}
+
+.res_col2 img{
+    padding-bottom: 20px;
+    padding-left: 50px;
+
+}
+
+.res_col2 p{
+    width: 80%;
+    min-height: 80px;
+    font-size: 16px;
+    margin-left: 20px;
+    text-indent: 10px;
+}
+.contact{
+    padding: 300px,0px;
+}
+.contact .field_area{
+    padding-bottom: 20px;
+    margin-right: 30px;
+}
+ .details{
+    color: #cc9900;
+}
+.button2 a{
+    padding: 10px 30px;
+    background:#c1b163;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway';
+    border-radius: 5px;
+    box-shadow: 2px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.button2 a{
+    margin-left: 100px;
+}
+/* Reservation part end */
+
+
+/* Footer part start */
+
+#footer{
+    background-color: black;
+    padding: 100px 0;
+}
+.foot_info1{
+    width: 35%;
+    color: #f1f1f1;
+    margin-left: 80px;
+    
+}
+.foot_info1 p{
+    padding-right: 20px;
+    height: 100px;
+}
+.head_foot{
+    margin-left: 80px;
+}
+.foot_info1 h5{
+    font-size: 20px;
+    margin-left: 20px;
+    padding-bottom:15px ;
+}
+.foot_info1 img{
+    width: 50%;
+    padding-bottom: 20px;
+    
+}
+.foot_info2{
+    width: 35%;
+    color: #f1f1f1;
+    margin-left: 100px;
+    
+}
+.foot_img img{
+    margin-top: 45px;
+}
+.foot2_img img{
+    margin-top: 45px;
+}
+.foot_info3{
+    width: 35%;
+    color: #f1f1f1;
+    margin-left: 100px;
+}
+.foot_info2 h5{
+    font-size: 20px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    
+}
+.foot_info2 img{
+    width: 50%;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    
+}
+.foot_info3 h5{
+    font-size: 20px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    
+}
+.foot_info3 img{
+    width: 50%;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    
+}
+/* Footer part end */
